@@ -76,9 +76,24 @@ h2{
 
 }
 
-.nickname {
-  font-family: 'Meddon', 'Georgia', 'Arial';
+/*nickname fonts*/
+#wicker, #frog, #twelves, #byron {
   color: #350706;
+}
+#twelves {
+  font-family: 'Indie Flower', 'Georgia', 'Arial';
+}
+
+#frog {
+  font-family: 'Dancing Spirit', 'Georgia', 'Arial';
+}
+
+#wicker {
+  font-family: 'Bad Script', 'Georgia', 'Arial';
+}
+
+#byron {
+  font-family: 'Ruge Boogie', 'Georgia', 'Arial';
 }
 
 .newspaper {
