@@ -81,6 +81,18 @@ h2{
   color: #350706;
 }
 
+.newspaper {
+  column-count: 3;
+  column-gap: 40px;
+  column-rule-style: solid;
+}
+
+.newspaper img {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 footer{
   position:fixed;
   left:0px;
@@ -195,4 +207,9 @@ a {
 
 *:focus{
   border: 2px solid #000000;
+}
+
+/*still needs some work*/
+a .secret {
+  text-decoration: none;
 }
