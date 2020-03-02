@@ -72,6 +72,15 @@ h1{
 	padding-bottom: 15px;
 }
 
+h2{
+
+}
+
+.nickname {
+  font-family: 'Meddon', 'Georgia', 'Arial';
+  color: #350706;
+}
+
 footer{
   position:fixed;
   left:0px;
@@ -127,6 +136,21 @@ a {
 	backface-visibility: hidden;
 }
 
+.grid-bio {
+  display: grid;
+  grid-template-columns: .5fr 1fr;
+  padding: 10px;
+}
+
+.grid-bio img {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.grid-item {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+}
 
 /*.middle {
   transition: .5s ease;
