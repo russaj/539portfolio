@@ -11,7 +11,18 @@ nav{
   text-align: left;
   grid-column: 1 / -1;
   grid-row: 1 / span 1;
+  width: 100%;
+    position: absolute;
+    background: linear-gradient(45deg, #F06553, #F06553, #3c3b5f , #381c2a,#381c2a, #2c0635);
+    background-size: 600% 100%;
+    animation: gradient 16s linear infinite;
+    animation-direction: alternate;
 
+}
+
+@keyframes gradient {
+    0% {background-position: 0%}
+    100% {background-position: 100%}
 }
 
 nav ul {
@@ -19,7 +30,7 @@ nav ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  /*background-color: #333;*/
 }
 
 nav li {
@@ -375,7 +386,7 @@ tbody tr:last-child th:first-child{
 }
 
 .flip-card-back {
-  background-color: #2980b9;
+  background-color: #2c0635;
   color: white;
   transform: rotateY(180deg);
 }
