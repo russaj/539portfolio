@@ -396,6 +396,13 @@ tbody tr:last-child th:first-child{
 }
 
 /* Applies styles when Reduced Motion is enabled */
-@media screen and (prefers-reduced-motion: reduce) { }
+@media screen and (prefers-reduced-motion: reduce) {
+	nav {
+		animation: none;
+}
 
-@media screen and (prefers-reduced-motion) { }
+@media screen and (prefers-reduced-motion) {
+	nav{
+		animation: none;
+	}
+	}
