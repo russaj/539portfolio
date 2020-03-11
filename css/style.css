@@ -394,3 +394,8 @@ tbody tr:last-child th:first-child{
   color: white;
   transform: rotateY(180deg);
 }
+
+/* Applies styles when Reduced Motion is enabled */
+@media screen and (prefers-reduced-motion: reduce) { }
+
+@media screen and (prefers-reduced-motion) { }
