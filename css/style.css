@@ -1,5 +1,6 @@
 @charset "utf-8";
 /*Global Styles */
+
 body{
   background:#030027;
 }
@@ -206,6 +207,11 @@ h1{
 h2{
   padding-top: 10px;
   text-align: center;
+}
+
+h3 #accordion {
+  color: black;
+  font-size: 24px; 
 }
 
 /*Nickname Fonts*/
@@ -734,8 +740,10 @@ h2.elegantshadow {
     background: ivory;
     border-radius: 5px; /* 5px rounded corners */
 }
-#accordion {
-  background-color: #030027;
+
+.faction-rating {
+  color: black;
+  font-size: 24px;
 }
 
 /* Applies styles when Reduced Motion is enabled */
