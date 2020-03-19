@@ -8,6 +8,11 @@
        // });
   //  });
 
+//jQuery Accordian
+  $( function() {
+    $( "#accordion" ).accordion();
+  } );
+
 //equal check
 function areEqual(){
    var len = arguments.length;
