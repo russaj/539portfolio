@@ -766,6 +766,9 @@ fieldset div{
 .center {
   text-align: center;
 }
+legend {
+  align-content: center;
+}
 
 input[type=reset], input[type=submit]{
    border: 1px solid black;
