@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="images/favicon.png"/>
+<!--font-awesome-->
+
+<script src="https://kit.fontawesome.com/84d35acee3.js" crossorigin="anonymous"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-159565284-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-159565284-1');
+</script>
+<!--Style Sheets -->
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Meddon&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bad+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ruge+Boogie&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Blades in the Dark - Weeping Lady's Three Card Tarot Reading</title>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/tarot.js"></script>
+	
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<nav class="navbar navbar-default">
+  <div class="container"> 
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myDefaultNavbar1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="myDefaultNavbar1">
+      <ul class="nav navbar-nav">
+            <ul class="nav_links">
+              <li><a href="index.html">The Game</a></li>
+               <li><a href="map.html">The City</a></li>
+              <li><a href="crew.html">The Crew</a></li>
+              <li><a href="faction.html">The Faction</a></li>
+              <li><a href="newspaper.html">The Duskvol Daily</a></li>
+               <li><a href="contact.html">The Contact</a></li>
+               <li><a class="active" href="index.html"><i class="fas fa-dungeon"></i>The Weeping Lady's Tarot Reading</a></li>
+            </ul>
+          </ul>
+        </li>
+      </ul>
+</div>
+    <!-- /.navbar-collapse --> 
+  </div>
+  <!-- /.container-fluid --> 
+</nav>
+<main id="main">
+<section class="introduction">
+  <div class="jumbotron text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs12">
+          <h1>The Weeping Lady's Tarot Reading</h1>
+          <p>With your positive affiliation with the Weeping Lady faction, she offers her services as a tarot reader.What does your fortune hold?</p>
+		     	<div class="col-lg-12 text-center">
+            	<h2>In this reading we shall call upon three powerful cards:</h2>
+              <h3>The Crown, The Wisdom, and The Understanding</h3>
+            	<p>Once you have clicked 3 times, click a fourth time to reveal the analysis!</p>
+            </div>
+          <p><a class="btn btn-primary btn-lg" id="dealer" role="button" onclick="threeCardTarot()">Let's Begin!</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="reading">
+	<div class="container">
+		<div class="row">
+		  <div class="col-md-12 text-center card">
+		<h4>The Crown (Kete)</h4>
+				<h6>Who do you think you are?</h6>
+			  	<p id="card_display1">First Card</p>
+				</div>
+                  <div class="col-md-12 text-center card">
+        <h4>The Wisdom (Chokhmah)</h4>
+          <h6>Let your conscious mind show you the way</h6>
+          <p id="card_display2">Second Card</p>
+            </div>
+                    <div class="col-md-12 text-center card">
+        <h4>The Understanding (Binah)</h4>
+                <h6>But never lose track of the feelings that ground you</h6>
+          <p id="card_display3">Third Card</p>
+            </div>
+			</div>
+       
+      <hr>
+      
+	</div>
+</section>
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-md-offset-5 text-center card">
+				<p id="card_display4"></p>
+			</div>
+        </div>
+	</div>
+</section>
+</main>
+    <footer class="text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <p>Copyright © MyCompany. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
