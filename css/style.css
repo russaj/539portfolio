@@ -673,9 +673,6 @@ table{
 
 /*Desktop view*/
 @media only screen and (min-width: 1080px) {
-  body {
-    background-color: pink;
-  }
 
 /* Faction Status Table */
 table{
