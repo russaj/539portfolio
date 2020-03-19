@@ -734,7 +734,9 @@ h2.elegantshadow {
     background: ivory;
     border-radius: 5px; /* 5px rounded corners */
 }
-
+#accordion {
+  background-color: #030027;
+}
 
 /* Applies styles when Reduced Motion is enabled */
 @media screen and (prefers-reduced-motion: reduce) {
